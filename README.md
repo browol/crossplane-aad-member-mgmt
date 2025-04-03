@@ -87,11 +87,11 @@ az ad sp create-for-rbac --sdk-auth --name crossplane-azad > azuread-credentials
 
 Ensure that the following permissions are assigned to the Azure AD App for the service principal:
 
-| Permission Name | Type | Description | Admin Consent | Status |
-|-----------------|------|-------------|---------------|--------|
-| Group.ReadWrite.All | Application | Read and write all groups | Yes | Granted for Default Directory |
-| GroupMember.ReadWrite.All | Application | Read and write all group memberships | Yes | Granted for Default Directory |
-| User.Read.All | Application | Read all users' full profiles | Yes | Granted for Default Directory |
+| Permission Name | Type | Description | Admin Consent |
+|-----------------|------|-------------|---------------|
+| Group.ReadWrite.All | Application | Read and write all groups | Yes |
+| GroupMember.ReadWrite.All | Application | Read and write all group memberships | Yes |
+| User.Read.All | Application | Read all users' full profiles | Yes |
 
 ## Create Kubernetes Secret for Azure AD Credentials
 
