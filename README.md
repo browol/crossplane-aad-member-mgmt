@@ -2,6 +2,12 @@
 
 Manage Azure AD groups and members using Crossplane. This guide provides a step-by-step process to set up Crossplane, install the Azure AD provider, and manage Azure AD groups and members.
 
+## References
+
+- [Crossplane Installation](https://docs.crossplane.io/v1.19/software/install/)
+- [provider-azuread | Member](https://marketplace.upbound.io/providers/upbound/provider-azuread/v1.6.4/resources/groups.azuread.upbound.io/Member/v1beta1)
+- [provider-azuread | Group](https://marketplace.upbound.io/providers/upbound/provider-azuread/v1.6.4/resources/groups.azuread.upbound.io/Group/v1beta2)
+
 ## Prerequisites
 
 - Azure CLI installed and configured
