@@ -20,7 +20,7 @@ Manage Azure AD groups and members using Crossplane. This guide provides a step-
 
 ```bash
 kind create cluster
-kctx kind-kind
+kubectx kind-kind
 ```
 
 ## Add and Update Crossplane Helm Repo
@@ -43,7 +43,7 @@ crossplane-stable/crossplane \
 ## Switch to Crossplane Namespace
 
 ```bash
-kns crossplane-system
+kubens crossplane-system
 ```
 
 ## Verify Crossplane Installation
